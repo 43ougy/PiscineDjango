@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beautiful CV</title>
+  </head>
+  <body>
+    <h1>Hello I am {name} {firstname} !</h1>
+    <p>I'm {age}</p>
+    <h2>My jobs</h2>
+    <p>{job}</p>
+  </body>
+</html>

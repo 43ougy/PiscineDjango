@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My beautiful CV</title>
+    <style>
+      :root {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table, td, th {
+        border: solid rgb(0, 119, 255);
+        border-collapse: collapse;
+        padding: 5px;
+        background: white;
+      }
+      table {
+        margin-top: 20px;
+        min-width: 300px;
+      }
+      .background {
+        position: absolute;
+        background-color: rgb(196, 196, 196);
+        width: 50%;
+        height: 100vh;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -5;
+      }
+      .wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: inset 0 0 15px white,
+                    0 0 15px;
+        width: 50%;
+        height: 100vh;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="background"></span>
+      <div class="wrapper">
+        <h1>Anael BOUGY</h1>
+        <div class="sidebar">
+          <ul>COMPETENCES
+            <li>Anglais</li>
+            <li>Travail d'equipe</li>
+          </ul>
+        </div>
+        <ol>
+          <li>
+            <table>
+              <caption>Mes formations</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Entreprises</th>
+                  <th scope="col">Dates</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Entreprise X</td>
+                  <td>xx/xx/xxxx</td>
+                </tr>
+                <tr>
+                  <td>Entreprise X</td>
+                  <td>xx/xx/xxxx</td>
+                </tr>
+                <tr>
+                  <td>Entreprise X</td>
+                  <td>xx/xx/xxxx</td>
+                </tr>
+                <tr>
+                  <td>Entreprise X</td>
+                  <td>xx/xx/xxxx</td>
+                </tr>
+                <tr>
+                  <td>Entreprise X</td>
+                  <td style="border: solid #424242;">xx/xx/xxxx</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>
+            <table>
+              <caption>Mes projets</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Nom du projet</th>
+                  <th scope="col">But</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Nom de projet</td>
+                  <td>Lorem, ipsum dolor sit<br>amet consectetur adip</td>
+                </tr>
+                <tr>
+                  <td>Nom de projet</td>
+                  <td>Lorem, ipsum dolor sit<br>amet consectetur adip</td>
+                </tr>
+                <tr>
+                  <td>Nom de projet</td>
+                  <td>Lorem, ipsum dolor sit<br>amet consectetur adip</td>
+                </tr>
+                <tr>
+                  <td>Nom de projet</td>
+                  <td>Lorem, ipsum dolor sit<br>amet consectetur adip</td>
+                </tr>
+                <tr>
+                  <td>Nom de projet</td>
+                  <td style="border: solid #424242;">Lorem, ipsum dolor sit<br>amet consectetur adip</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+        </ol>
+      </div>
+    </main>
+  </body>
+</html>
